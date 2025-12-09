@@ -4,6 +4,9 @@
 # WordPress Configuration
 wp-config.php
 
+# Wordfence Logs
+wp-content/wflogs/
+
 # Docker
 .env
 docker-compose.override.yml
