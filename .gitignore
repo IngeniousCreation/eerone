@@ -7,6 +7,9 @@ wp-config.php
 # Wordfence Logs
 wp-content/wflogs/
 
+# LiteSpeed Cache
+wp-content/litespeed/
+
 # Docker
 .env
 docker-compose.override.yml
