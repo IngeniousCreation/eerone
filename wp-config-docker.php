@@ -1,11 +1,9 @@
 <?php
 define( 'WP_CACHE', true );
 /**
- * The base configuration for WordPress
+ * The base configuration for WordPress (Docker Environment)
  *
- * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the website, you can copy this file to "wp-config.php"
- * and fill in the values.
+ * Copy this file to "wp-config.php" when setting up Docker environment
  *
  * This file contains the following configurations:
  *
@@ -19,18 +17,18 @@ define( 'WP_CACHE', true );
  * @package WordPress
  */
 
-// ** Database settings - You can get this info from your web host ** //
+// ** Database settings - Docker Configuration ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'mfgwgjlkdw_totraips_wp641_eerone' );
 
 /** Database username */
-define( 'DB_USER', 'mfgwgjlkdw_totraips_wp641_eerone' );
+define( 'DB_USER', 'wordpress' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'V7-eb=ZVqWGsZgsB*8nwYuS]' );
+define( 'DB_PASSWORD', 'wordpress_password' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db:3306' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -102,3 +100,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+

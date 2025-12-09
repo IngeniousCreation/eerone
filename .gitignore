@@ -1,1 +1,9 @@
 *.sql
+*.md
+
+# WordPress Configuration
+wp-config.php
+
+# Docker
+.env
+docker-compose.override.yml
