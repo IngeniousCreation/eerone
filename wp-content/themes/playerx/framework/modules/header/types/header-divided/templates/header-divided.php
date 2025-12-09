@@ -67,9 +67,11 @@
         </div>
 	<?php } ?>
 	
-	<?php if($show_sticky) {
-		playerx_edge_get_sticky_header('divided', 'header/types/header-divided');
-	} ?>
+	<?php // Temporarily disabled sticky header due to malware corruption
+	// if($show_sticky) {
+	// 	playerx_edge_get_sticky_header('divided', 'header/types/header-divided');
+	// }
+	?>
 	
 	<?php do_action('playerx_edge_action_before_page_header_html_close'); ?>
 </header>
