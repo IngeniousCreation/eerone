@@ -3,6 +3,7 @@
 
 # WordPress Configuration
 wp-config.php
+.htaccess
 
 # Wordfence Logs
 wp-content/wflogs/
