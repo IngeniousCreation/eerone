@@ -13,3 +13,7 @@ wp-content/litespeed/
 # Docker
 .env
 docker-compose.override.yml
+
+# Malicious Plugins (Security)
+wp-content/plugins/my-wp-ab-testing1/
+wp-content/plugins/my-wp-ab-testing/
