@@ -1,0 +1,42 @@
+2025-10-30T15:17:43+00:00 ERROR Error getting data feed
+2025-10-30T15:17:43+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 7: Failed to connect to woocommerce.com port 443 after 1005 ms: Couldn't connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+2025-10-30T18:15:05+00:00 ERROR Error getting data feed
+2025-10-30T18:15:05+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 7: Failed to connect to woocommerce.com port 443 after 1017 ms: Couldn't connect to server
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)

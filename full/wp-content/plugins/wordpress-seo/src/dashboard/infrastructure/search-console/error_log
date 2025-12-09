@@ -1,0 +1,1 @@
+[18-Oct-2025 17:07:05 America/Chicago] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/totraips/eerone.com/wp-content/plugins/wordpress-seo/src/dashboard/infrastructure/search-console/site-kit-search-console-adapter.php on line 5

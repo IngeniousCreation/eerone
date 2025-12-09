@@ -1,0 +1,650 @@
+[16-Oct-2025 19:19:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#4 /tmp/.ibase_pconnection(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.ibase_pco...')
+#6 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[16-Oct-2025 22:07:11 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "]" in /tmp/.reset on line 4
+[17-Oct-2025 00:38:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips')
+#4 /tmp/.content(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.content')
+#6 {main}
+  thrown in /tmp/.content on line 1
+[17-Oct-2025 06:30:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accept:1
+Stack trace:
+#0 /tmp/.accept(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accept(1): inject('/home3/totraips...')
+#2 /tmp/.accept(1): scan('/home3/totraips...')
+#3 /tmp/.accept(1): scan('/home3/totraips')
+#4 /tmp/.accept(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.accept')
+#6 {main}
+  thrown in /tmp/.accept on line 1
+[17-Oct-2025 07:09:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.cache:1
+Stack trace:
+#0 /tmp/.cache(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.cache(1): inject('/home3/totraips...')
+#2 /tmp/.cache(1): scan('/home3/totraips...')
+#3 /tmp/.cache(1): scan('/home3/totraips')
+#4 /tmp/.cache(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.cache')
+#6 {main}
+  thrown in /tmp/.cache on line 1
+[17-Oct-2025 13:24:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.config:1
+Stack trace:
+#0 /tmp/.config(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.config(1): inject('/home3/totraips...')
+#2 /tmp/.config(1): scan('/home3/totraips...')
+#3 /tmp/.config(1): scan('/home3/totraips')
+#4 /tmp/.config(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.config')
+#6 {main}
+  thrown in /tmp/.config on line 1
+[17-Oct-2025 18:39:34 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.rjust on line 5
+[17-Oct-2025 18:53:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dba_insertion:1
+Stack trace:
+#0 /tmp/.dba_insertion(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dba_insertion(1): inject('/home3/totraips...')
+#2 /tmp/.dba_insertion(1): scan('/home3/totraips...')
+#3 /tmp/.dba_insertion(1): scan('/home3/totraips')
+#4 /tmp/.dba_insertion(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.dba_inser...')
+#6 {main}
+  thrown in /tmp/.dba_insertion on line 1
+[18-Oct-2025 01:03:50 America/Chicago] PHP Warning:  file_put_contents(/tmp/.internal): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:50 America/Chicago] PHP Warning:  file_put_contents(/tmp/.internal): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:50 America/Chicago] PHP Warning:  file_put_contents(/var/tmp/.internal): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:50 America/Chicago] PHP Warning:  file_put_contents(/tmp/.internal): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:50 America/Chicago] PHP Warning:  file_put_contents(/tmp/.internal): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:52 America/Chicago] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:52 America/Chicago] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:52 America/Chicago] PHP Warning:  file_put_contents(/var/tmp/.created): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:52 America/Chicago] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:52 America/Chicago] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 01:03:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created:1
+Stack trace:
+#0 /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created(1): inject('/home3/totraips...')
+#2 /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created(1): scan('/home3/totraips...')
+#3 /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created(1): scan('/home3/totraips')
+#4 /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created(1): scanRootPaths()
+#5 Command line code(1): include('/home3/totraips...')
+#6 {main}
+  thrown in /home3/totraips/eerone.com/wp-content/plugins/wpide/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/.created on line 1
+[18-Oct-2025 07:15:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#4 /tmp/.parle_tokens(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.parle_tok...')
+#6 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[18-Oct-2025 15:29:52 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.ibase_pconnection on line 5
+[18-Oct-2025 19:29:30 America/Chicago] PHP Warning:  file_put_contents(/tmp/.dbx_convert): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 19:29:30 America/Chicago] PHP Warning:  file_put_contents(/tmp/.dbx_convert): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 19:29:30 America/Chicago] PHP Warning:  file_put_contents(/var/tmp/.dbx_convert): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 19:29:30 America/Chicago] PHP Warning:  file_put_contents(/tmp/.dbx_convert): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 19:29:30 America/Chicago] PHP Warning:  file_put_contents(/tmp/.dbx_convert): Failed to open stream: Permission denied in Command line code on line 1
+[18-Oct-2025 19:29:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.internal:1
+Stack trace:
+#0 /tmp/.internal(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.internal(1): inject('/home3/totraips...')
+#2 /tmp/.internal(1): scan('/home3/totraips...')
+#3 /tmp/.internal(1): scan('/home3/totraips')
+#4 /tmp/.internal(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.internal')
+#6 {main}
+  thrown in /tmp/.internal on line 1
+[19-Oct-2025 08:03:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.internal:1
+Stack trace:
+#0 /tmp/.internal(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.internal(1): inject('/home3/totraips...')
+#2 /tmp/.internal(1): scan('/home3/totraips...')
+#3 /tmp/.internal(1): scan('/home3/totraips')
+#4 /tmp/.internal(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.internal')
+#6 {main}
+  thrown in /tmp/.internal on line 1
+[19-Oct-2025 22:51:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.multi:1
+Stack trace:
+#0 /tmp/.multi(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.multi(1): inject('/home3/totraips...')
+#2 /tmp/.multi(1): scan('/home3/totraips...')
+#3 /tmp/.multi(1): scan('/home3/totraips')
+#4 /tmp/.multi(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.multi')
+#6 {main}
+  thrown in /tmp/.multi on line 1
+[20-Oct-2025 11:34:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.cache:1
+Stack trace:
+#0 /tmp/.cache(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.cache(1): inject('/home3/totraips...')
+#2 /tmp/.cache(1): scan('/home3/totraips...')
+#3 /tmp/.cache(1): scan('/home3/totraips')
+#4 /tmp/.cache(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.cache')
+#6 {main}
+  thrown in /tmp/.cache on line 1
+[20-Oct-2025 11:52:45 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.post on line 4
+[20-Oct-2025 17:25:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rjust:1
+Stack trace:
+#0 /tmp/.rjust(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rjust(1): inject('/home3/totraips...')
+#2 /tmp/.rjust(1): scan('/home3/totraips...')
+#3 /tmp/.rjust(1): scan('/home3/totraips')
+#4 /tmp/.rjust(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.rjust')
+#6 {main}
+  thrown in /tmp/.rjust on line 1
+[20-Oct-2025 23:33:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.requests')
+#6 {main}
+  thrown in /tmp/.requests on line 1
+[21-Oct-2025 06:01:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.include:1
+Stack trace:
+#0 /tmp/.include(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.include(1): inject('/home3/totraips...')
+#2 /tmp/.include(1): scan('/home3/totraips...')
+#3 /tmp/.include(1): scan('/home3/totraips')
+#4 /tmp/.include(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.include')
+#6 {main}
+  thrown in /tmp/.include on line 1
+[21-Oct-2025 12:51:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.include:1
+Stack trace:
+#0 /tmp/.include(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.include(1): inject('/home3/totraips...')
+#2 /tmp/.include(1): scan('/home3/totraips...')
+#3 /tmp/.include(1): scan('/home3/totraips')
+#4 /tmp/.include(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.include')
+#6 {main}
+  thrown in /tmp/.include on line 1
+[21-Oct-2025 18:05:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.config:1
+Stack trace:
+#0 /tmp/.config(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.config(1): inject('/home3/totraips...')
+#2 /tmp/.config(1): scan('/home3/totraips...')
+#3 /tmp/.config(1): scan('/home3/totraips')
+#4 /tmp/.config(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.config')
+#6 {main}
+  thrown in /tmp/.config on line 1
+[22-Oct-2025 00:19:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.requests')
+#6 {main}
+  thrown in /tmp/.requests on line 1
+[22-Oct-2025 06:21:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.center:1
+Stack trace:
+#0 /tmp/.center(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.center(1): inject('/home3/totraips...')
+#2 /tmp/.center(1): scan('/home3/totraips...')
+#3 /tmp/.center(1): scan('/home3/totraips')
+#4 /tmp/.center(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.center')
+#6 {main}
+  thrown in /tmp/.center on line 1
+[22-Oct-2025 06:58:48 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.rjust on line 5
+[22-Oct-2025 12:17:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.locked(1): inject('/home3/totraips...')
+#2 /tmp/.locked(1): scan('/home3/totraips...')
+#3 /tmp/.locked(1): scan('/home3/totraips')
+#4 /tmp/.locked(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.locked')
+#6 {main}
+  thrown in /tmp/.locked on line 1
+[23-Oct-2025 00:08:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.partition:1
+Stack trace:
+#0 /tmp/.partition(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.partition(1): inject('/home3/totraips...')
+#2 /tmp/.partition(1): scan('/home3/totraips...')
+#3 /tmp/.partition(1): scan('/home3/totraips')
+#4 /tmp/.partition(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.partition')
+#6 {main}
+  thrown in /tmp/.partition on line 1
+[23-Oct-2025 04:20:29 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.uconvert on line 5
+[23-Oct-2025 06:15:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rjust:1
+Stack trace:
+#0 /tmp/.rjust(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rjust(1): inject('/home3/totraips...')
+#2 /tmp/.rjust(1): scan('/home3/totraips...')
+#3 /tmp/.rjust(1): scan('/home3/totraips')
+#4 /tmp/.rjust(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.rjust')
+#6 {main}
+  thrown in /tmp/.rjust on line 1
+[23-Oct-2025 12:49:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips')
+#4 /tmp/.content(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.content')
+#6 {main}
+  thrown in /tmp/.content on line 1
+[23-Oct-2025 18:08:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#4 /tmp/.parle_tokens(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.parle_tok...')
+#6 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[24-Oct-2025 00:48:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#4 /tmp/.parle_tokens(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.parle_tok...')
+#6 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[24-Oct-2025 01:55:19 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.dbx_convert on line 5
+[24-Oct-2025 06:55:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips')
+#4 /tmp/.content(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.content')
+#6 {main}
+  thrown in /tmp/.content on line 1
+[24-Oct-2025 18:20:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.center:1
+Stack trace:
+#0 /tmp/.center(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.center(1): inject('/home3/totraips...')
+#2 /tmp/.center(1): scan('/home3/totraips...')
+#3 /tmp/.center(1): scan('/home3/totraips')
+#4 /tmp/.center(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.center')
+#6 {main}
+  thrown in /tmp/.center on line 1
+[25-Oct-2025 01:05:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.include:1
+Stack trace:
+#0 /tmp/.include(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.include(1): inject('/home3/totraips...')
+#2 /tmp/.include(1): scan('/home3/totraips...')
+#3 /tmp/.include(1): scan('/home3/totraips')
+#4 /tmp/.include(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.include')
+#6 {main}
+  thrown in /tmp/.include on line 1
+[25-Oct-2025 12:50:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.dbx_conve...')
+#6 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[25-Oct-2025 18:28:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#4 /tmp/.ibase_pconnection(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.ibase_pco...')
+#6 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[25-Oct-2025 19:48:40 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.include on line 3
+[26-Oct-2025 01:01:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.locked(1): inject('/home3/totraips...')
+#2 /tmp/.locked(1): scan('/home3/totraips...')
+#3 /tmp/.locked(1): scan('/home3/totraips')
+#4 /tmp/.locked(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.locked')
+#6 {main}
+  thrown in /tmp/.locked on line 1
+[26-Oct-2025 07:02:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.post:1
+Stack trace:
+#0 /tmp/.post(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.post(1): inject('/home3/totraips...')
+#2 /tmp/.post(1): scan('/home3/totraips...')
+#3 /tmp/.post(1): scan('/home3/totraips')
+#4 /tmp/.post(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.post')
+#6 {main}
+  thrown in /tmp/.post on line 1
+[26-Oct-2025 18:07:57 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.rindex on line 4
+[26-Oct-2025 18:32:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.requests')
+#6 {main}
+  thrown in /tmp/.requests on line 1
+[26-Oct-2025 23:54:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.sys:1
+Stack trace:
+#0 /tmp/.sys(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.sys(1): inject('/home3/totraips...')
+#2 /tmp/.sys(1): scan('/home3/totraips...')
+#3 /tmp/.sys(1): scan('/home3/totraips')
+#4 /tmp/.sys(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.sys')
+#6 {main}
+  thrown in /tmp/.sys on line 1
+[27-Oct-2025 06:07:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.uconvert')
+#6 {main}
+  thrown in /tmp/.uconvert on line 1
+[27-Oct-2025 12:26:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accepted:1
+Stack trace:
+#0 /tmp/.accepted(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accepted(1): inject('/home3/totraips...')
+#2 /tmp/.accepted(1): scan('/home3/totraips...')
+#3 /tmp/.accepted(1): scan('/home3/totraips')
+#4 /tmp/.accepted(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.accepted')
+#6 {main}
+  thrown in /tmp/.accepted on line 1
+[27-Oct-2025 14:53:30 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.class on line 4
+[28-Oct-2025 00:23:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.sys:1
+Stack trace:
+#0 /tmp/.sys(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.sys(1): inject('/home3/totraips...')
+#2 /tmp/.sys(1): scan('/home3/totraips...')
+#3 /tmp/.sys(1): scan('/home3/totraips')
+#4 /tmp/.sys(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.sys')
+#6 {main}
+  thrown in /tmp/.sys on line 1
+[28-Oct-2025 05:52:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.dbx_conve...')
+#6 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[28-Oct-2025 12:09:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.request:1
+Stack trace:
+#0 /tmp/.request(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.request(1): inject('/home3/totraips...')
+#2 /tmp/.request(1): scan('/home3/totraips...')
+#3 /tmp/.request(1): scan('/home3/totraips')
+#4 /tmp/.request(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.request')
+#6 {main}
+  thrown in /tmp/.request on line 1
+[28-Oct-2025 18:16:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.config:1
+Stack trace:
+#0 /tmp/.config(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.config(1): inject('/home3/totraips...')
+#2 /tmp/.config(1): scan('/home3/totraips...')
+#3 /tmp/.config(1): scan('/home3/totraips')
+#4 /tmp/.config(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.config')
+#6 {main}
+  thrown in /tmp/.config on line 1
+[29-Oct-2025 00:39:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.mb_convert:1
+Stack trace:
+#0 /tmp/.mb_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.mb_convert(1): inject('/home3/totraips...')
+#2 /tmp/.mb_convert(1): scan('/home3/totraips...')
+#3 /tmp/.mb_convert(1): scan('/home3/totraips')
+#4 /tmp/.mb_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.mb_conver...')
+#6 {main}
+  thrown in /tmp/.mb_convert on line 1
+[29-Oct-2025 06:26:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#4 /tmp/.ibase_pconnection(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.ibase_pco...')
+#6 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[29-Oct-2025 09:52:54 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.partition on line 4
+[29-Oct-2025 12:02:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.mb_convert:1
+Stack trace:
+#0 /tmp/.mb_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.mb_convert(1): inject('/home3/totraips...')
+#2 /tmp/.mb_convert(1): scan('/home3/totraips...')
+#3 /tmp/.mb_convert(1): scan('/home3/totraips')
+#4 /tmp/.mb_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.mb_conver...')
+#6 {main}
+  thrown in /tmp/.mb_convert on line 1
+[29-Oct-2025 17:59:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.created:1
+Stack trace:
+#0 /tmp/.created(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.created(1): inject('/home3/totraips...')
+#2 /tmp/.created(1): scan('/home3/totraips...')
+#3 /tmp/.created(1): scan('/home3/totraips')
+#4 /tmp/.created(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.created')
+#6 {main}
+  thrown in /tmp/.created on line 1
+[30-Oct-2025 00:06:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.dbx_conve...')
+#6 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[30-Oct-2025 07:55:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.reset:1
+Stack trace:
+#0 /tmp/.reset(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.reset(1): inject('/home3/totraips...')
+#2 /tmp/.reset(1): scan('/home3/totraips...')
+#3 /tmp/.reset(1): scan('/home3/totraips')
+#4 /tmp/.reset(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.reset')
+#6 {main}
+  thrown in /tmp/.reset on line 1
+[30-Oct-2025 13:18:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.mb_convert:1
+Stack trace:
+#0 /tmp/.mb_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.mb_convert(1): inject('/home3/totraips...')
+#2 /tmp/.mb_convert(1): scan('/home3/totraips...')
+#3 /tmp/.mb_convert(1): scan('/home3/totraips')
+#4 /tmp/.mb_convert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.mb_conver...')
+#6 {main}
+  thrown in /tmp/.mb_convert on line 1
+[30-Oct-2025 19:38:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.partition:1
+Stack trace:
+#0 /tmp/.partition(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.partition(1): inject('/home3/totraips...')
+#2 /tmp/.partition(1): scan('/home3/totraips...')
+#3 /tmp/.partition(1): scan('/home3/totraips')
+#4 /tmp/.partition(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.partition')
+#6 {main}
+  thrown in /tmp/.partition on line 1
+[31-Oct-2025 01:34:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.lock:1
+Stack trace:
+#0 /tmp/.lock(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.lock(1): inject('/home3/totraips...')
+#2 /tmp/.lock(1): scan('/home3/totraips...')
+#3 /tmp/.lock(1): scan('/home3/totraips')
+#4 /tmp/.lock(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.lock')
+#6 {main}
+  thrown in /tmp/.lock on line 1
+[31-Oct-2025 12:06:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accept:1
+Stack trace:
+#0 /tmp/.accept(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accept(1): inject('/home3/totraips...')
+#2 /tmp/.accept(1): scan('/home3/totraips...')
+#3 /tmp/.accept(1): scan('/home3/totraips')
+#4 /tmp/.accept(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.accept')
+#6 {main}
+  thrown in /tmp/.accept on line 1
+[31-Oct-2025 17:51:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.uconvert')
+#6 {main}
+  thrown in /tmp/.uconvert on line 1
+[01-Nov-2025 00:07:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.reset:1
+Stack trace:
+#0 /tmp/.reset(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.reset(1): inject('/home3/totraips...')
+#2 /tmp/.reset(1): scan('/home3/totraips...')
+#3 /tmp/.reset(1): scan('/home3/totraips')
+#4 /tmp/.reset(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.reset')
+#6 {main}
+  thrown in /tmp/.reset on line 1
+[01-Nov-2025 01:13:34 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.locked on line 9
+[01-Nov-2025 11:55:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#4 /tmp/.ibase_pconnection(1): scanRootPaths()
+#5 Command line code(1): include('/tmp/.ibase_pco...')
+#6 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[01-Nov-2025 17:42:19 America/Chicago] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: Permission denied in Command line code on line 1
+[01-Nov-2025 17:42:19 America/Chicago] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: Permission denied in Command line code on line 1
+[01-Nov-2025 17:42:19 America/Chicago] PHP Warning:  file_put_contents(/var/tmp/.reset): Failed to open stream: Permission denied in Command line code on line 1
+[01-Nov-2025 17:42:19 America/Chicago] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: Permission denied in Command line code on line 1
+[01-Nov-2025 17:42:19 America/Chicago] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: Permission denied in Command line code on line 1
+[01-Nov-2025 23:01:31 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.classes on line 8
+[04-Nov-2025 23:34:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.classes:1
+Stack trace:
+#0 /tmp/.classes(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.classes(1): inject('/home3/totraips...')
+#2 /tmp/.classes(1): scan('/home3/totraips...')
+#3 /tmp/.classes(1): scan('/home3/totraips...')
+#4 /tmp/.classes(1): scan('/home3/totraips')
+#5 /tmp/.classes(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.classes')
+#7 {main}
+  thrown in /tmp/.classes on line 1
+[05-Nov-2025 05:34:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.rjust:1
+Stack trace:
+#0 /tmp/.rjust(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.rjust(1): inject('/home3/totraips...')
+#2 /tmp/.rjust(1): scan('/home3/totraips...')
+#3 /tmp/.rjust(1): scan('/home3/totraips...')
+#4 /tmp/.rjust(1): scan('/home3/totraips')
+#5 /tmp/.rjust(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.rjust')
+#7 {main}
+  thrown in /tmp/.rjust on line 1
+[05-Nov-2025 11:45:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.center:1
+Stack trace:
+#0 /tmp/.center(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.center(1): inject('/home3/totraips...')
+#2 /tmp/.center(1): scan('/home3/totraips...')
+#3 /tmp/.center(1): scan('/home3/totraips...')
+#4 /tmp/.center(1): scan('/home3/totraips')
+#5 /tmp/.center(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.center')
+#7 {main}
+  thrown in /tmp/.center on line 1
+[05-Nov-2025 13:22:12 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.classes on line 2
+[05-Nov-2025 17:16:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.dba_insertion:1
+Stack trace:
+#0 /tmp/.dba_insertion(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.dba_insertion(1): inject('/home3/totraips...')
+#2 /tmp/.dba_insertion(1): scan('/home3/totraips...')
+#3 /tmp/.dba_insertion(1): scan('/home3/totraips...')
+#4 /tmp/.dba_insertion(1): scan('/home3/totraips')
+#5 /tmp/.dba_insertion(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.dba_inser...')
+#7 {main}
+  thrown in /tmp/.dba_insertion on line 1
+[05-Nov-2025 23:05:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips...')
+#4 /tmp/.content(1): scan('/home3/totraips')
+#5 /tmp/.content(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.[06-Nov-2025 23:37:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#4 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#5 /tmp/.parle_tokens(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.parle_tok...')
+#7 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[07-Nov-2025 05:35:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.oauthexceptions:1
+Stack trace:
+#0 /tmp/.oauthexceptions(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.oauthexceptions(1): inject('/home3/totraips...')
+#2 /tmp/.oauthexceptions(1): scan('/home3/totraips...')
+#3 /tmp/.oauthexceptions(1): scan('/home3/totraips...')
+#4 /tmp/.oauthexceptions(1): scan('/home3/totraips')
+#5 /tmp/.oauthexceptions(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.oauthexce...')
+#7 {main}
+  thrown in /tmp/.oauthexceptions on line 1
+[07-Nov-2025 10:19:02 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.created on line 4
+[07-Nov-2025 11:25:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.internal:1
+Stack trace:
+#0 /tmp/.internal(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.internal(1): inject('/home3/totraips...')
+#2 /tmp/.internal(1): scan('/home3/totraips...')
+#3 /tmp/.internal(1): scan('/home3/totraips...')
+#4 /tmp/.internal(1): scan('/home3/totraips')
+#5 /tmp/.internal(1): scanRootPaths()
+#6 Command line code(1): include('/tmp/.internal')
+#7 {main}
+  thrown in /tmp/.internal on line 1

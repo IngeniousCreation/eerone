@@ -1,7 +1,0 @@
-[07-Dec-2025 00:43:51 UTC] PHP Fatal error:  Uncaught TypeError: fputs(): Argument #1 ($stream) must be of type resource, bool given in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/logger.php:15
-Stack trace:
-#0 /home/mfgwgjlkdw/eerone.com/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/logger.php(15): fputs()
-#1 [internal function]: unit_converter()
-#2 /home/mfgwgjlkdw/eerone.com/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/logger.php(25): class_parents()
-#3 {main}
-  thrown in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/logger.php on line 15

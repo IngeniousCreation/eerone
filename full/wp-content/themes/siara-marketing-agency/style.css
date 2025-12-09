@@ -1,0 +1,1359 @@
+@charset "UTF-8";
+/*!
+Theme Name: Siara Marketing Agency
+Theme URI: 
+Author: Siara Software
+Author URI: 
+Description: Siera Marketing Agency is a stylish and lightweight WordPress theme built for businesses that want to stand out. Perfect for marketing agencies, freelancers, startups, and consultants, it blends a clean modern look with powerful features. Beyond its elegant design, Siera offers flexible customization through the WordPress Customizer, allowing you to adjust colors, typography, and layouts without touching a single line of code. With its user-friendly interface, anyone can create a stunning website that highlights their brand, builds trust with potential clients, and drives business growth.
+Template: siara-corporate-business
+Requires at least: 5.3
+Tested up to: 6.5
+Requires PHP: 5.6
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: siara-marketing-agency
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-background, custom-logo, custom-menu, e-commerce, custom-header, grid-layout,featured-images, footer-widgets, post-formats, threaded-comments, theme-options, translation-ready, wide-blocks, rtl-language-support
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Siaramarketingagency is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* ===== TOP HEADER SECTION ===== */
+.has-menu-sticked .topbar-wrapper {
+    display: none;
+}
+
+.has-menu-sticked .navigation-bar {
+    top: 0px;
+}
+
+/* Top Bar Wrapper - Black Background for both rows */
+.topbar-wrapper {
+    background-color: #0daea8;
+    color: #ffffff;
+    padding-bottom: 4.2rem;
+}
+
+/* First Top Bar Row - Text Only */
+.topbar-first-row {
+    background-color: #0daea8;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.topbar-first-row .topbar-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.topbar-first-row .topbar-left-section {
+    width: 100%;
+}
+
+.topbar-left-section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.topbar-first-row .topbar-text-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topbar-first-row .topbar-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+/* Second Top Bar Row - Join Button, Contact Info, and Social Icons */
+.topbar-second-row {
+    background-color: #0daea8;
+    padding: 12px 0;
+}
+
+.topbar-second-row .topbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.topbar-second-row .topbar-left-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+}
+
+.topbar-second-row .topbar-right-section {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Join With Us Button */
+.join-with-us-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    flex-shrink: 0;
+}
+
+.join-with-us-btn:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+.join-with-us-btn svg {
+    width: 12px;
+    height: 12px;
+    fill: #000000;
+}
+
+/* Contact Info Section */
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.contact-item svg {
+    width: 14px;
+    height: 14px;
+    fill: #ffffff;
+    flex-shrink: 0;
+}
+
+.contact-item a,
+.contact-item span {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.contact-item a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.social-icons svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+/* Time display */
+.topbar-time {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.topbar-time svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffffff;
+}
+
+/* ===== NAVIGATION BAR SECTION ===== */
+.navigation-bar {
+    box-shadow: none;
+    border-bottom: none ! Important;
+    top: -40px;
+    position: relative;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 15px 27px;
+}
+
+/* Logo Section */
+.nav-logo {
+    flex-shrink: 0;
+}
+
+.nav-logo .site-branding {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo .site-logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Center Menu Section */
+.nav-menu-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right Section */
+.nav-right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+/* Search Styles */
+.nav-search {
+    position: relative;
+}
+
+.search-toggle {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-toggle:hover {
+    background-color: #f5f5f5;
+}
+
+.search-form-container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 300px;
+    display: none;
+    margin-top: 10px;
+}
+
+.search-form-container.active {
+    display: block;
+}
+
+.search-form-container form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form-container input[type="search"] {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-form-container button {
+    padding: 8px 16px;
+    background-color: #007cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.search-form-container button:hover {
+    background-color: #005a87;
+}
+
+/* CTA Button Styles */
+.nav-cta .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-cta a:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 38px;
+    width: 227px;
+    background-size: contain;
+    height: 11px;
+    background-repeat: no-repeat;
+}
+
+.nav-cta .cta-button svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+/* Mobile Menu Toggle */
+.toggle.toggle-off-canvas {
+    display: none;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+
+    /* Hide Top Bar on Mobile */
+    .topbar-wrapper {
+        display: none !important;
+    }
+
+    /* Show mobile menu toggle */
+    .toggle.toggle-off-canvas {
+        display: block;
+    }
+
+    /* Navigation Mobile */
+    .navigation-bar {
+        top: 0px !important;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-logo {
+        order: 1;
+        flex: 1;
+    }
+
+    .nav-menu-center {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .nav-right-section {
+        order: 2;
+        flex-shrink: 0;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .nav-cta .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .search-form-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 400px;
+        margin-top: 0;
+    }
+}
+
+/* ===== SLIDER SECTION ===== */
+
+/* Slider Wrapper */
+.siaracorporatebusiness-section-banner-wrapper {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 70vh;
+}
+
+.siaracorporatebusiness-section-banner {
+    position: relative;
+    height: 100%;
+}
+
+/* Swiper Slide with Background Image */
+.swiper-slide {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative;
+}
+
+.swiper-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(13, 174, 168, 1) 0%, rgba(13, 174, 168, 0) 40%);
+    z-index: 1;
+}
+
+/* Banner Block Wrapper */
+.banner-block-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 80px 20px;
+    max-width: 1200px;
+    position: relative;
+    z-index: 2;
+    min-height: 70vh;
+}
+
+/* Content Section - Center Left Aligned */
+.banner-content-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 12rem;
+}
+
+.banner-content-inner {
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+    z-index: 3;
+}
+
+/* Typography Hierarchy */
+.banner-sub-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.banner-title {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.banner-subtitle {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.banner-excerpt {
+    margin-bottom: 0;
+    padding: 0 0;
+}
+
+.banner-excerpt p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+/* Get Started Button - White Background */
+.banner-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #0daea8;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.banner-cta-button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.banner-cta-button svg {
+    transition: transform 0.3s ease;
+    fill: currentColor;
+}
+
+.banner-cta-button:hover svg {
+    transform: translateX(4px);
+}
+
+/* Background Image Styling is handled by .swiper-slide */
+
+/* Swiper Navigation and Pagination */
+.swiper-pagination {
+    bottom: 30px !important;
+    z-index: 10;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #ffffff;
+    color: #0daea8 !important;
+    transform: scale(1.1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .swiper-slide {
+        min-height: 60vh;
+    }
+
+    .banner-block-wrapper {
+        padding: 50px 20px;
+        min-height: 60vh;
+        justify-content: center;
+    }
+
+    .banner-content-section {
+        justify-content: center;
+    }
+
+    .banner-content-inner {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .banner-excerpt p {
+        font-size: 14px;
+    }
+
+    .banner-cta-button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-slide {
+        min-height: 50vh;
+    }
+
+    .banner-block-wrapper {
+        min-height: 50vh;
+        padding: 30px 15px;
+    }
+
+    .banner-title {
+        font-size: 1.3rem;
+    }
+
+    .banner-sub-text {
+        font-size: 12px;
+    }
+
+    .banner-subtitle {
+        font-size: 0.8rem;
+    }
+}
+
+/* ===== MOBILE FIRST RESPONSIVE DESIGN ===== */
+
+/* Mobile Styles (320px - 767px) */
+@media (max-width: 767px) {
+
+    /* Hide top bar completely on mobile */
+    .topbar-wrapper {
+        display: none !important;
+    }
+
+    /* Navigation adjustments */
+    .navigation-bar {
+        top: 0px !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-container {
+        padding: 12px 15px;
+    }
+
+    .nav-logo .site-logo img {
+        max-height: 40px;
+    }
+
+    .nav-cta .cta-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    /* Slider mobile improvements */
+    .banner-block-wrapper {
+        padding: 40px 15px;
+        min-height: 60vh;
+    }
+
+    .banner-content-inner {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .banner-sub-text {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+
+    .banner-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .banner-excerpt {
+        margin-bottom: 25px;
+    }
+
+    .banner-excerpt p {
+        font-size: 14px;
+    }
+
+    .banner-cta-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* About Us mobile improvements */
+    .siaracorporatebusiness-section-aboutus-wrapper {
+        padding: 50px 0;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .image {
+        margin-bottom: 30px;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .about--content {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .features-section {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .feature-item {
+        margin-bottom: 20px;
+    }
+
+    .feature-content h4 {
+        font-size: 16px;
+    }
+
+    .feature-content p {
+        font-size: 13px;
+    }
+
+    .bullet-points {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    .contact-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Services mobile improvements */
+    .siaracorporatebusiness-section-services-wrapper {
+        padding: 50px 0;
+    }
+
+    .services-header {
+        margin-bottom: 40px;
+        padding: 0 15px;
+    }
+
+    .siaracorporatebusiness-section-services-wrapper .heading h2 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .service-card {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .service-content {
+        padding: 20px;
+    }
+
+    .service-title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .service-excerpt p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .service-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Extra Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+
+    /* Navigation */
+    .nav-container {
+        padding: 10px 12px;
+    }
+
+    .nav-cta .cta-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* Slider */
+    .banner-block-wrapper {
+        padding: 30px 12px;
+        min-height: 50vh;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .banner-subtitle {
+        font-size: 1rem;
+    }
+
+    .banner-cta-button {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+
+    /* About Us */
+    .siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+        font-size: 22px;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .about--content {
+        padding: 0 12px;
+    }
+
+    /* Services */
+    .services-header {
+        padding: 0 12px;
+    }
+
+    .siaracorporatebusiness-section-services-wrapper .heading h2 {
+        font-size: 22px;
+    }
+
+    .service-card {
+        height: 280px;
+    }
+
+    .service-content {
+        padding: 15px;
+    }
+
+    .service-title {
+        font-size: 16px;
+    }
+}
+
+/* Tablet Landscape (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner-title {
+        font-size: 3.5rem;
+    }
+
+    .banner-subtitle {
+        font-size: 2rem;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+        font-size: 36px;
+    }
+
+    .siaracorporatebusiness-section-services-wrapper .heading h2 {
+        font-size: 36px;
+    }
+
+    .service-card {
+        height: 400px;
+    }
+}
+
+/* Large Screens (1200px+) */
+@media (min-width: 1200px) {
+
+    .nav-container,
+    .topbar-container,
+    .banner-block-wrapper {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ===== UTILITY CLASSES ===== */
+.siaracorporatebusiness-floating-scroll-top {
+    border-radius: 10rem;
+    background: #007cba;
+}
+
+.siaracorporatebusiness-btn-link.style_4 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2.4rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+        rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+    color: #3c4043 !important;
+    height: 4rem;
+    padding: 2px 1.8rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.25px;
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.siaracorporatebusiness-btn-link.style_4 svg {
+    fill: #3c4043 !important;
+}
+
+/* ===== ABOUT US SECTION ===== */
+
+.siaracorporatebusiness-section-aboutus-wrapper {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.siaracorporatebusiness-section-aboutus-wrapper .about--content {
+    text-align: left;
+    padding: 20px 0;
+}
+
+/* Image Section */
+.siaracorporatebusiness-section-aboutus-wrapper .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siaracorporatebusiness-section-aboutus-wrapper .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.siaracorporatebusiness-section-aboutus-wrapper .heading {
+    margin-bottom: 30px;
+}
+
+.siaracorporatebusiness-section-aboutus-wrapper .heading h3 {
+    color: #040303;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 0 0 0 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Features Section */
+.features-section {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+    text-align: left;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+}
+
+.feature-item:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.feature-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(13, 174, 168, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 0 8px 0;
+}
+
+.feature-content p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Description */
+.siaracorporatebusiness-section-aboutus-wrapper .description {
+    margin-bottom: 25px;
+}
+
+.siaracorporatebusiness-section-aboutus-wrapper .description p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Bullet Points */
+.bullet-points {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.bullet-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.check-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    background: rgba(13, 174, 168, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.bullet-item p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Contact Button */
+.contact-button {
+    text-align: left;
+}
+
+.contact-us-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 35px;
+    background-color: #0daea8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 2px solid #0daea8;
+}
+
+.contact-us-btn:hover {
+    background-color: transparent;
+    color: #0daea8;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 174, 168, 0.3);
+}
+
+.contact-us-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.contact-us-btn:hover svg {
+    transform: translateX(4px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .siaracorporatebusiness-section-aboutus-wrapper {
+        padding: 60px 0;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+        font-size: 32px;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .image {
+        margin-bottom: 40px;
+    }
+
+    .siaracorporatebusiness-section-aboutus-wrapper .about--content {
+        text-align: center;
+    }
+
+    .bullet-points {
+        text-align: left;
+    }
+
+    .contact-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .siaracorporatebusiness-section-aboutus-wrapper .heading h2 {
+        font-size: 28px;
+    }
+
+    .contact-us-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
+
+/* ===== SERVICES SECTION ===== */
+
+.siaracorporatebusiness-section-services-wrapper {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+/* Services Header */
+.services-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.siaracorporatebusiness-section-services-wrapper .heading h3 {
+    color: #040303;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.siaracorporatebusiness-section-services-wrapper .heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Service Cards */
+.service-card {
+    position: relative;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Color Overlay */
+.service-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(13, 174, 168, 1) 0%, rgba(13, 174, 169, 0.664) 40%, rgba(13, 174, 169, 0) 50%);
+    z-index: 1;
+}
+
+.service-card:hover .service-overlay {
+    background: linear-gradient(0deg, rgba(13, 174, 168, 1) 0%, rgba(13, 174, 169, 0.664) 40%, rgba(13, 174, 169, 0) 50%);
+
+}
+
+/* Content Positioning - Bottom Left */
+.service-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+}
+
+.service-excerpt p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+/* White Read More Button */
+.service-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    color: #0daea8;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+}
+
+.service-btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.service-btn svg {
+    transition: transform 0.3s ease;
+    width: 14px;
+    height: 14px;
+}
+
+.service-btn:hover svg {
+    transform: translateX(3px);
+}
+
+/* Responsive Design for Services */
+@media (max-width: 768px) {
+    .siaracorporatebusiness-section-services-wrapper {
+        padding: 60px 0;
+    }
+
+    .services-header {
+        margin-bottom: 40px;
+    }
+
+    .siaracorporatebusiness-section-services-wrapper .heading h2 {
+        font-size: 32px;
+    }
+
+    .service-card {
+        height: 380px;
+        margin-bottom: 30px;
+    }
+
+    .service-content {
+        padding: 25px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .siaracorporatebusiness-section-services-wrapper .heading h2 {
+        font-size: 28px;
+    }
+
+    .service-card {
+        height: 340px;
+    }
+
+    .service-content {
+        padding: 20px;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .service-btn {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+}

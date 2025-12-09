@@ -1,0 +1,1 @@
+[16-Oct-2025 15:02:14 America/Chicago] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/totraips/eerone.com/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Grant/AuthorizationCode.php on line 16

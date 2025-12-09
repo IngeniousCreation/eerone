@@ -1,0 +1,1 @@
+[16-Oct-2025 15:01:52 America/Chicago] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/totraips/eerone.com/wp-content/plugins/wp-mail-smtp/vendor_prefixed/google/auth/src/Middleware/SimpleMiddleware.php on line 19

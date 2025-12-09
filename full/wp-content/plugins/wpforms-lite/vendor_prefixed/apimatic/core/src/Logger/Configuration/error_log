@@ -1,0 +1,654 @@
+[16-Oct-2025 19:19:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[16-Oct-2025 22:08:02 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "]" in /tmp/.pointer on line 4
+[17-Oct-2025 00:38:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[17-Oct-2025 06:31:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[17-Oct-2025 07:10:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[17-Oct-2025 13:24:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[17-Oct-2025 18:40:15 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[17-Oct-2025 18:53:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[18-Oct-2025 01:05:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[18-Oct-2025 07:16:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[18-Oct-2025 13:01:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[18-Oct-2025 15:17:56 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[18-Oct-2025 19:31:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[19-Oct-2025 08:04:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[19-Oct-2025 17:16:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[19-Oct-2025 22:52:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[20-Oct-2025 11:34:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[20-Oct-2025 11:43:24 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[20-Oct-2025 23:34:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[21-Oct-2025 06:04:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[21-Oct-2025 09:46:18 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[21-Oct-2025 12:52:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[21-Oct-2025 18:06:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[22-Oct-2025 00:24:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[22-Oct-2025 06:23:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[22-Oct-2025 06:55:14 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[22-Oct-2025 12:17:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[22-Oct-2025 18:13:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[23-Oct-2025 00:10:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[23-Oct-2025 04:03:18 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[23-Oct-2025 06:16:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[23-Oct-2025 12:51:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[23-Oct-2025 18:13:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[24-Oct-2025 00:49:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[24-Oct-2025 01:44:23 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 5
+[24-Oct-2025 06:56:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[24-Oct-2025 12:51:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[24-Oct-2025 18:25:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[25-Oct-2025 07:24:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[25-Oct-2025 12:54:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[25-Oct-2025 19:42:19 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 3
+[26-Oct-2025 01:06:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[26-Oct-2025 12:54:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[26-Oct-2025 17:35:40 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[26-Oct-2025 18:35:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[27-Oct-2025 06:08:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[27-Oct-2025 12:32:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[27-Oct-2025 15:26:32 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[27-Oct-2025 18:34:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[28-Oct-2025 00:23:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[28-Oct-2025 05:53:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[28-Oct-2025 12:11:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[28-Oct-2025 12:45:16 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[28-Oct-2025 18:17:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[29-Oct-2025 00:47:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[29-Oct-2025 06:27:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[29-Oct-2025 09:52:31 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[29-Oct-2025 18:00:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[30-Oct-2025 00:07:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[30-Oct-2025 07:55:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[30-Oct-2025 13:18:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[30-Oct-2025 19:38:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[31-Oct-2025 01:34:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[31-Oct-2025 12:07:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[31-Oct-2025 17:53:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[01-Nov-2025 00:09:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[01-Nov-2025 00:17:26 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 9
+[01-Nov-2025 11:56:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[01-Nov-2025 17:43:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips')
+#4 /tmp/.pointer(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#6 {main}
+  thrown in /tmp/.pointer on line 1
+[04-Nov-2025 18:07:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[04-Nov-2025 23:30:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[05-Nov-2025 05:31:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[05-Nov-2025 09:09:35 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpvfw17C&quot; to &quot;/home3/totraips/eerone.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypes/Reviews/specials.php&quot; in /tmp/.pointer on line 1
+[05-Nov-2025 11:36:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[05-Nov-2025 13:43:41 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 2
+[05-Nov-2025 17:17:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+[06-Nov-2025 23:40:17 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[07-Nov-2025 05:35:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1
+[07-Nov-2025 10:14:10 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.pointer on line 4
+[07-Nov-2025 11:26:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.pointer:1
+Stack trace:
+#0 /tmp/.pointer(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.pointer(1): inject('/home3/totraips...')
+#2 /tmp/.pointer(1): scan('/home3/totraips...')
+#3 /tmp/.pointer(1): scan('/home3/totraips...')
+#4 /tmp/.pointer(1): scan('/home3/totraips')
+#5 /tmp/.pointer(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/apimatic/core/src/Logger/Configuration/changeFields.php(11): include('/tmp/.pointer')
+#7 {main}
+  thrown in /tmp/.pointer on line 1

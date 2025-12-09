@@ -1,0 +1,130 @@
+/*
+RTL styles for Shop Toolkit Plus theme
+*/
+
+/* Reset default RTL styles */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Floats */
+.float-left {
+	float: right !important;
+}
+
+.float-right {
+	float: left !important;
+}
+
+/* Text alignment */
+.text-left {
+	text-align: right !important;
+}
+
+.text-right {
+	text-align: left !important;
+}
+
+/* Margins and paddings that need to be flipped */
+.ml-auto {
+	margin-right: auto !important;
+	margin-left: 0 !important;
+}
+
+.mr-auto {
+	margin-left: auto !important;
+	margin-right: 0 !important;
+}
+
+/* Navigation */
+.main-navigation ul ul {
+	right: -999em;
+	left: auto;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	right: auto;
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	right: 100%;
+	left: auto;
+}
+
+/* Header elements */
+.site-branding {
+	text-align: right;
+}
+
+/* Blog elements */
+.stplus-ameta,
+.author-details {
+	flex-direction: row-reverse;
+}
+
+.author-details {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.ameta-img img {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/* Product grids */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	float: right;
+}
+
+.woocommerce ul.products li.last,
+.woocommerce-page ul.products li.last {
+	margin-left: inherit;
+	margin-right: 0;
+}
+
+/* Buttons */
+.wp-block-button__link,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Forms */
+input[type="checkbox"] {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/* Widgets */
+.widget-area .widget {
+	text-align: right;
+}
+
+/* Footer */
+.site-footer .widget-area .widget-title {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+	.main-navigation ul ul {
+		right: -999em;
+		left: auto;
+	}
+	
+	.main-navigation ul ul ul li:hover > ul,
+	.main-navigation ul ul ul li.befocus > ul {
+		left: auto;
+		right: 7px;
+	}
+}

