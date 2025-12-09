@@ -1,0 +1,14 @@
+[08-Dec-2025 17:26:57 UTC] PHP Fatal error:  Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:26:57 UTC] E_ERROR: Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:27:37 UTC] PHP Fatal error:  Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:27:37 UTC] E_ERROR: Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:28:48 UTC] PHP Fatal error:  Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:28:48 UTC] E_ERROR: Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:28:55 UTC] PHP Fatal error:  Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:28:55 UTC] E_ERROR: Trait "WPCF7_SWV_SchemaHolder" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/contact-form-7/includes/contact-form.php on line 3
+[08-Dec-2025 17:29:31 UTC] EXCEPTION: Class "WpOrg\Requests\Iri" not found in /home/mfgwgjlkdw/eerone.com/wp-includes/Requests/src/Requests.php on line 692
+[08-Dec-2025 17:29:34 UTC] EXCEPTION: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 17
+[08-Dec-2025 17:34:17 UTC] EXCEPTION: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 17
+[08-Dec-2025 17:34:23 UTC] EXCEPTION: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 17
+[08-Dec-2025 18:19:07 UTC] EXCEPTION: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 17
+[08-Dec-2025 18:19:15 UTC] EXCEPTION: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/mfgwgjlkdw/eerone.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 17

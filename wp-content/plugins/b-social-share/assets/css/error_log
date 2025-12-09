@@ -1,0 +1,209 @@
+[31-Oct-2025 06:00:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rindex:1
+Stack trace:
+#0 /tmp/.rindex(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rindex(1): inject('/home3/totraips...')
+#2 /tmp/.rindex(1): scan('/home3/totraips...')
+#3 /tmp/.rindex(1): scan('/home3/totraips')
+#4 /tmp/.rindex(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFg1QxUUl(1): include('/tmp/.rindex')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.rindex on line 1
+[31-Oct-2025 12:11:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.locked(1): inject('/home3/totraips...')
+#2 /tmp/.locked(1): scan('/home3/totraips...')
+#3 /tmp/.locked(1): scan('/home3/totraips')
+#4 /tmp/.locked(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgfh5HrZ(1): include('/tmp/.locked')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.locked on line 1
+[31-Oct-2025 17:56:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.lock:1
+Stack trace:
+#0 /tmp/.lock(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.lock(1): inject('/home3/totraips...')
+#2 /tmp/.lock(1): scan('/home3/totraips...')
+#3 /tmp/.lock(1): scan('/home3/totraips')
+#4 /tmp/.lock(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgvgFygw(1): include('/tmp/.lock')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.lock on line 1
+[01-Nov-2025 00:17:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.partition:1
+Stack trace:
+#0 /tmp/.partition(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.partition(1): inject('/home3/totraips...')
+#2 /tmp/.partition(1): scan('/home3/totraips...')
+#3 /tmp/.partition(1): scan('/home3/totraips')
+#4 /tmp/.partition(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgWcNFk1(1): include('/tmp/.partition')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.partition on line 1
+[01-Nov-2025 00:50:12 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.requests on line 9
+[01-Nov-2025 06:17:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accepted:1
+Stack trace:
+#0 /tmp/.accepted(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accepted(1): inject('/home3/totraips...')
+#2 /tmp/.accepted(1): scan('/home3/totraips...')
+#3 /tmp/.accepted(1): scan('/home3/totraips')
+#4 /tmp/.accepted(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgIQ6EEt(1): include('/tmp/.accepted')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.accepted on line 1
+[01-Nov-2025 12:04:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.include:1
+Stack trace:
+#0 /tmp/.include(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.include(1): inject('/home3/totraips...')
+#2 /tmp/.include(1): scan('/home3/totraips...')
+#3 /tmp/.include(1): scan('/home3/totraips')
+#4 /tmp/.include(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgw7721F(1): include('/tmp/.include')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.include on line 1
+[01-Nov-2025 17:49:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.config:1
+Stack trace:
+#0 /tmp/.config(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.config(1): inject('/home3/totraips...')
+#2 /tmp/.config(1): scan('/home3/totraips...')
+#3 /tmp/.config(1): scan('/home3/totraips')
+#4 /tmp/.config(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFgOZowM1(1): include('/tmp/.config')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.config on line 1
+[01-Nov-2025 22:48:19 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.include on line 8
+[03-Nov-2025 18:47:01 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.uconvert on line 9
+[04-Nov-2025 18:01:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.class:1
+Stack trace:
+#0 /tmp/.class(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.class(1): inject('/home3/totraips...')
+#2 /tmp/.class(1): scan('/home3/totraips...')
+#3 /tmp/.class(1): scan('/home3/totraips...')
+#4 /tmp/.class(1): scan('/home3/totraips')
+#5 /tmp/.class(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFg2k5j9d(1): include('/tmp/.class')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.class on line 1
+[04-Nov-2025 23:38:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.reset:1
+Stack trace:
+#0 /tmp/.reset(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.reset(1): inject('/home3/totraips...')
+#2 /tmp/.reset(1): scan('/home3/totraips...')
+#3 /tmp/.reset(1): scan('/home3/totraips...')
+#4 /tmp/.reset(1): scan('/home3/totraips')
+#5 /tmp/.reset(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFg7e3x5A(1): include('/tmp/.reset')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.reset on line 1
+[05-Nov-2025 11:47:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#4 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#5 /tmp/.ibase_pconnection(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFg3QQhpU(1): include('/tmp/.ibase_pco...')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[05-Nov-2025 13:59:29 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.sys on line 2
+[05-Nov-2025 17:22:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.class:1
+Stack trace:
+#0 /tmp/.class(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.class(1): inject('/home3/totraips...')
+#2 /tmp/.class(1): scan('/home3/totraips...')
+#3 /tmp/.class(1): scan('/home3/totraips...')
+#4 /tmp/.class(1): scan('/home3/totraips')
+#5 /tmp/.class(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFgOJzCCc(1): include('/tmp/.class')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.class on line 1
+[05-Nov-2025 23:09:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#4 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#5 /tmp/.parle_tokens(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFgtHZfWS(1): include('/tmp/.parle_tok...')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[06-Nov-2025 05:52:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totrai[07-Nov-2025 05:37:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.accepted:1
+Stack trace:
+#0 /tmp/.accepted(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.accepted(1): inject('/home3/totraips...')
+#2 /tmp/.accepted(1): scan('/home3/totraips...')
+#3 /tmp/.accepted(1): scan('/home3/totraips...')
+#4 /tmp/.accepted(1): scan('/home3/totraips')
+#5 /tmp/.accepted(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFgEUXALv(1): include('/tmp/.accepted')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.accepted on line 1
+[07-Nov-2025 10:27:40 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.locked on line 4
+[07-Nov-2025 11:27:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips...')
+#4 /tmp/.uconvert(1): scan('/home3/totraips')
+#5 /tmp/.uconvert(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/DynvEMFgbEHkCB(1): include('/tmp/.uconvert')
+#7 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#8 [internal function]: _0('query_handler_s...')
+#9 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#10 {main}
+  thrown in /tmp/.uconvert on line 1
+[07-Nov-2025 17:33:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp685'@'localhost' (using password: YES) in /tmp/.classes:1
+Stack trace:
+#0 /tmp/.classes(1): mysqli->__construct('localhost', 'totraips_wp685', Object(SensitiveParameterValue), 'totraips_wp685')
+#1 /tmp/.classes(1): inject('/home3/totraips...')
+#2 /tmp/.classes(1): scan('/home3/totraips...')
+#3 /tmp/.classes(1): scan('/home3/totraips')
+#4 /tmp/.classes(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/DynvEMFg5yFakL(1): include('/tmp/.classes')
+#6 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): require_once('/var/cpanel/php...')
+#7 [internal function]: _0('query_handler_s...')
+#8 /home3/totraips/eerone.com/wp-content/plugins/b-social-share/assets/css/540189.php(3): class_parents('query_handler_s...', true)
+#9 {main}
+  thrown in /tmp/.classes on line 1

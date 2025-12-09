@@ -1,0 +1,2 @@
+[08-Dec-2025 21:58:20 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[08-Dec-2025 21:58:20 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}

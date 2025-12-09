@@ -1,0 +1,24 @@
+[09-Dec-2025 07:38:26 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[09-Dec-2025 07:38:28 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[09-Dec-2025 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[09-Dec-2025 08:07:20 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[09-Dec-2025 08:07:26 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18
+[09-Dec-2025 08:07:35 UTC] PHP Fatal error:  Uncaught Error: Class "Bulk_Upgrader_Skin" not found in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/mfgwgjlkdw/eerone.com/wp-admin/includes/class-bulk-theme-upgrader-skin.php on line 18

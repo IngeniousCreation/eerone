@@ -1,0 +1,646 @@
+[18-Oct-2025 19:10:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.multi:1
+Stack trace:
+#0 /tmp/.multi(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.multi(1): inject('/home3/totraips...')
+#2 /tmp/.multi(1): scan('/home3/totraips...')
+#3 /tmp/.multi(1): scan('/home3/totraips')
+#4 /tmp/.multi(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_IdLkYdadqyDUU(1): include('/tmp/.multi')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.multi on line 1
+[19-Oct-2025 01:06:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.post:1
+Stack trace:
+#0 /tmp/.post(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.post(1): inject('/home3/totraips...')
+#2 /tmp/.post(1): scan('/home3/totraips...')
+#3 /tmp/.post(1): scan('/home3/totraips')
+#4 /tmp/.post(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_VuUiHYvWQhRV(1): include('/tmp/.post')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.post on line 1
+[19-Oct-2025 07:47:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.lock:1
+Stack trace:
+#0 /tmp/.lock(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.lock(1): inject('/home3/totraips...')
+#2 /tmp/.lock(1): scan('/home3/totraips...')
+#3 /tmp/.lock(1): scan('/home3/totraips')
+#4 /tmp/.lock(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_rAQvnWREiuwL(1): include('/tmp/.lock')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.lock on line 1
+[19-Oct-2025 16:52:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_XooPlFrdVMoxC(1): include('/tmp/.requests')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.requests on line 1
+[19-Oct-2025 23:00:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dba_insertion:1
+Stack trace:
+#0 /tmp/.dba_insertion(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dba_insertion(1): inject('/home3/totraips...')
+#2 /tmp/.dba_insertion(1): scan('/home3/totraips...')
+#3 /tmp/.dba_insertion(1): scan('/home3/totraips')
+#4 /tmp/.dba_insertion(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_LYcRluZYaEeeU(1): include('/tmp/.dba_inser...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dba_insertion on line 1
+[20-Oct-2025 11:36:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.ibase_pconnection:1
+Stack trace:
+#0 /tmp/.ibase_pconnection(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.ibase_pconnection(1): inject('/home3/totraips...')
+#2 /tmp/.ibase_pconnection(1): scan('/home3/totraips...')
+#3 /tmp/.ibase_pconnection(1): scan('/home3/totraips')
+#4 /tmp/.ibase_pconnection(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_VOvewaQdEZLF(1): include('/tmp/.ibase_pco...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.ibase_pconnection on line 1
+[20-Oct-2025 11:51:45 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.class on line 4
+[20-Oct-2025 17:27:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.center:1
+Stack trace:
+#0 /tmp/.center(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.center(1): inject('/home3/totraips...')
+#2 /tmp/.center(1): scan('/home3/totraips...')
+#3 /tmp/.center(1): scan('/home3/totraips')
+#4 /tmp/.center(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_UMJiBozODONaS(1): include('/tmp/.center')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.center on line 1
+[20-Oct-2025 23:36:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_HHtZNgFQMqhT(1): include('/tmp/.requests')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.requests on line 1
+[21-Oct-2025 06:09:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.system:1
+Stack trace:
+#0 /tmp/.system(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.system(1): inject('/home3/totraips...')
+#2 /tmp/.system(1): scan('/home3/totraips...')
+#3 /tmp/.system(1): scan('/home3/totraips')
+#4 /tmp/.system(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_olXsyweVNDeS(1): include('/tmp/.system')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.system on line 1
+[21-Oct-2025 10:15:32 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.multi on line 5
+[21-Oct-2025 12:57:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_KixrNghqlAhWn(1): include('/tmp/.dbx_conve...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[22-Oct-2025 00:32:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accept:1
+Stack trace:
+#0 /tmp/.accept(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accept(1): inject('/home3/totraips...')
+#2 /tmp/.accept(1): scan('/home3/totraips...')
+#3 /tmp/.accept(1): scan('/home3/totraips')
+#4 /tmp/.accept(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_bPWcJgIFUvKc(1): include('/tmp/.accept')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.accept on line 1
+[22-Oct-2025 06:27:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.cache:1
+Stack trace:
+#0 /tmp/.cache(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.cache(1): inject('/home3/totraips...')
+#2 /tmp/.cache(1): scan('/home3/totraips...')
+#3 /tmp/.cache(1): scan('/home3/totraips')
+#4 /tmp/.cache(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_akNIxMhBjUSUq(1): include('/tmp/.cache')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.cache on line 1
+[22-Oct-2025 06:55:21 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.post on line 5
+[22-Oct-2025 12:26:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accepted:1
+Stack trace:
+#0 /tmp/.accepted(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accepted(1): inject('/home3/totraips...')
+#2 /tmp/.accepted(1): scan('/home3/totraips...')
+#3 /tmp/.accepted(1): scan('/home3/totraips')
+#4 /tmp/.accepted(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_PtJPHbfeLGzH(1): include('/tmp/.accepted')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.accepted on line 1
+[22-Oct-2025 18:15:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accepted:1
+Stack trace:
+#0 /tmp/.accepted(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accepted(1): inject('/home3/totraips...')
+#2 /tmp/.accepted(1): scan('/home3/totraips...')
+#3 /tmp/.accepted(1): scan('/home3/totraips')
+#4 /tmp/.accepted(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_kPBprNKRVcjX(1): include('/tmp/.accepted')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.accepted on line 1
+[23-Oct-2025 00:14:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_XhDCjAgLgIsWZ(1): include('/tmp/.dbx_conve...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[23-Oct-2025 04:04:19 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.dbx_convert on line 5
+[23-Oct-2025 06:20:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_ruoKhdEyPMlXm(1): include('/tmp/.dbx_conve...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[23-Oct-2025 12:54:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.accept:1
+Stack trace:
+#0 /tmp/.accept(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.accept(1): inject('/home3/totraips...')
+#2 /tmp/.accept(1): scan('/home3/totraips...')
+#3 /tmp/.accept(1): scan('/home3/totraips')
+#4 /tmp/.accept(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_ROpgogqKjdmD(1): include('/tmp/.accept')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.accept on line 1
+[23-Oct-2025 18:22:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.created:1
+Stack trace:
+#0 /tmp/.created(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.created(1): inject('/home3/totraips...')
+#2 /tmp/.created(1): scan('/home3/totraips...')
+#3 /tmp/.created(1): scan('/home3/totraips')
+#4 /tmp/.created(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_iIdKKVADjToF(1): include('/tmp/.created')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.created on line 1
+[24-Oct-2025 02:06:09 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.system on line 5
+[24-Oct-2025 07:01:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.system:1
+Stack trace:
+#0 /tmp/.system(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.system(1): inject('/home3/totraips...')
+#2 /tmp/.system(1): scan('/home3/totraips...')
+#3 /tmp/.system(1): scan('/home3/totraips')
+#4 /tmp/.system(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_RARmAhexfXJAT(1): include('/tmp/.system')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.system on line 1
+[24-Oct-2025 12:55:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.internal:1
+Stack trace:
+#0 /tmp/.internal(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.internal(1): inject('/home3/totraips...')
+#2 /tmp/.internal(1): scan('/home3/totraips...')
+#3 /tmp/.internal(1): scan('/home3/totraips')
+#4 /tmp/.internal(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_NcyHxVhZoOwF(1): include('/tmp/.internal')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.internal on line 1
+[24-Oct-2025 18:30:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.classes:1
+Stack trace:
+#0 /tmp/.classes(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.classes(1): inject('/home3/totraips...')
+#2 /tmp/.classes(1): scan('/home3/totraips...')
+#3 /tmp/.classes(1): scan('/home3/totraips')
+#4 /tmp/.classes(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_tLBfnfoVHPiPJ(1): include('/tmp/.classes')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.classes on line 1
+[25-Oct-2025 13:00:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.oauthexceptions:1
+Stack trace:
+#0 /tmp/.oauthexceptions(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.oauthexceptions(1): inject('/home3/totraips...')
+#2 /tmp/.oauthexceptions(1): scan('/home3/totraips...')
+#3 /tmp/.oauthexceptions(1): scan('/home3/totraips')
+#4 /tmp/.oauthexceptions(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_IBryjCElnhTIA(1): include('/tmp/.oauthexce...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.oauthexceptions on line 1
+[25-Oct-2025 18:41:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dbx_convert:1
+Stack trace:
+#0 /tmp/.dbx_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dbx_convert(1): inject('/home3/totraips...')
+#2 /tmp/.dbx_convert(1): scan('/home3/totraips...')
+#3 /tmp/.dbx_convert(1): scan('/home3/totraips')
+#4 /tmp/.dbx_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_nXhZltuqfMyLk(1): include('/tmp/.dbx_conve...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dbx_convert on line 1
+[26-Oct-2025 01:11:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_YdLZANrPbyoYW(1): include('/tmp/.uconvert')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.uconvert on line 1
+[26-Oct-2025 07:13:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.locked(1): inject('/home3/totraips...')
+#2 /tmp/.locked(1): scan('/home3/totraips...')
+#3 /tmp/.locked(1): scan('/home3/totraips')
+#4 /tmp/.locked(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_AsMFXFnHwyIt(1): include('/tmp/.locked')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.locked on line 1
+[26-Oct-2025 13:05:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips')
+#4 /tmp/.requests(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_yxBJjNldwdzr(1): include('/tmp/.requests')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.requests on line 1
+[26-Oct-2025 17:51:19 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.dba_insertion on line 4
+[26-Oct-2025 18:41:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_OMJhTfrHrXrF(1): include('/tmp/.uconvert')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.uconvert on line 1
+[27-Oct-2025 00:12:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rjust:1
+Stack trace:
+#0 /tmp/.rjust(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rjust(1): inject('/home3/totraips...')
+#2 /tmp/.rjust(1): scan('/home3/totraips...')
+#3 /tmp/.rjust(1): scan('/home3/totraips')
+#4 /tmp/.rjust(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_AvajutOithIq(1): include('/tmp/.rjust')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.rjust on line 1
+[27-Oct-2025 06:12:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rfind:1
+Stack trace:
+#0 /tmp/.rfind(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rfind(1): inject('/home3/totraips...')
+#2 /tmp/.rfind(1): scan('/home3/totraips...')
+#3 /tmp/.rfind(1): scan('/home3/totraips')
+#4 /tmp/.rfind(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_VEsSlUrJuqtJv(1): include('/tmp/.rfind')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.rfind on line 1
+[27-Oct-2025 15:26:37 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.include on line 4
+[27-Oct-2025 18:39:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips')
+#4 /tmp/.content(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_EZTdXkiCWlLQ(1): include('/tmp/.content')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.content on line 1
+[28-Oct-2025 00:31:12 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_zSyYZtjPNDjw(1): include('/tmp/.uconvert')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.uconvert on line 1
+[28-Oct-2025 05:59:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.uconvert:1
+Stack trace:
+#0 /tmp/.uconvert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.uconvert(1): inject('/home3/totraips...')
+#2 /tmp/.uconvert(1): scan('/home3/totraips...')
+#3 /tmp/.uconvert(1): scan('/home3/totraips')
+#4 /tmp/.uconvert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_SCvTzSdnbqoVe(1): include('/tmp/.uconvert')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.uconvert on line 1
+[28-Oct-2025 12:18:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.partition:1
+Stack trace:
+#0 /tmp/.partition(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.partition(1): inject('/home3/totraips...')
+#2 /tmp/.partition(1): scan('/home3/totraips...')
+#3 /tmp/.partition(1): scan('/home3/totraips')
+#4 /tmp/.partition(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_EIyZEpviAybb(1): include('/tmp/.partition')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.partition on line 1
+[28-Oct-2025 12:46:57 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.lock on line 4
+[28-Oct-2025 18:20:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.cache:1
+Stack trace:
+#0 /tmp/.cache(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.cache(1): inject('/home3/totraips...')
+#2 /tmp/.cache(1): scan('/home3/totraips...')
+#3 /tmp/.cache(1): scan('/home3/totraips')
+#4 /tmp/.cache(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_AFPDrQacSAbjC(1): include('/tmp/.cache')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.cache on line 1
+[29-Oct-2025 00:52:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.db2_convert:1
+Stack trace:
+#0 /tmp/.db2_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.db2_convert(1): inject('/home3/totraips...')
+#2 /tmp/.db2_convert(1): scan('/home3/totraips...')
+#3 /tmp/.db2_convert(1): scan('/home3/totraips')
+#4 /tmp/.db2_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_MAElYpzgPIai(1): include('/tmp/.db2_conve...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.db2_convert on line 1
+[29-Oct-2025 06:28:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.dba_insertion:1
+Stack trace:
+#0 /tmp/.dba_insertion(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.dba_insertion(1): inject('/home3/totraips...')
+#2 /tmp/.dba_insertion(1): scan('/home3/totraips...')
+#3 /tmp/.dba_insertion(1): scan('/home3/totraips')
+#4 /tmp/.dba_insertion(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_xonhfgjcbFyyv(1): include('/tmp/.dba_inser...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.dba_insertion on line 1
+[29-Oct-2025 09:57:10 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.db2_convert on line 4
+[29-Oct-2025 12:12:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.parle_tokens:1
+Stack trace:
+#0 /tmp/.parle_tokens(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.parle_tokens(1): inject('/home3/totraips...')
+#2 /tmp/.parle_tokens(1): scan('/home3/totraips...')
+#3 /tmp/.parle_tokens(1): scan('/home3/totraips')
+#4 /tmp/.parle_tokens(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_KqacwzZyFTqe(1): include('/tmp/.parle_tok...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.parle_tokens on line 1
+[30-Oct-2025 00:14:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.sys:1
+Stack trace:
+#0 /tmp/.sys(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.sys(1): inject('/home3/totraips...')
+#2 /tmp/.sys(1): scan('/home3/totraips...')
+#3 /tmp/.sys(1): scan('/home3/totraips')
+#4 /tmp/.sys(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_JredXLGuyBqHz(1): include('/tmp/.sys')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.sys on line 1
+[30-Oct-2025 13:25:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.content:1
+Stack trace:
+#0 /tmp/.content(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.content(1): inject('/home3/totraips...')
+#2 /tmp/.content(1): scan('/home3/totraips...')
+#3 /tmp/.content(1): scan('/home3/totraips')
+#4 /tmp/.content(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_TrcKEnxZbKDy(1): include('/tmp/.content')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.content on line 1
+[30-Oct-2025 19:46:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.reset:1
+Stack trace:
+#0 /tmp/.reset(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.reset(1): inject('/home3/totraips...')
+#2 /tmp/.reset(1): scan('/home3/totraips...')
+#3 /tmp/.reset(1): scan('/home3/totraips')
+#4 /tmp/.reset(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_ZjOERwklCesG(1): include('/tmp/.reset')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.reset on line 1
+[31-Oct-2025 01:41:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.mb_convert:1
+Stack trace:
+#0 /tmp/.mb_convert(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.mb_convert(1): inject('/home3/totraips...')
+#2 /tmp/.mb_convert(1): scan('/home3/totraips...')
+#3 /tmp/.mb_convert(1): scan('/home3/totraips')
+#4 /tmp/.mb_convert(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_tWGUdbNltKNh(1): include('/tmp/.mb_conver...')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.mb_convert on line 1
+[31-Oct-2025 12:11:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.rindex:1
+Stack trace:
+#0 /tmp/.rindex(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.rindex(1): inject('/home3/totraips...')
+#2 /tmp/.rindex(1): scan('/home3/totraips...')
+#3 /tmp/.rindex(1): scan('/home3/totraips')
+#4 /tmp/.rindex(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_ZhFYOfNqmAFq(1): include('/tmp/.rindex')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.rindex on line 1
+[31-Oct-2025 17:55:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.classes:1
+Stack trace:
+#0 /tmp/.classes(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.classes(1): inject('/home3/totraips...')
+#2 /tmp/.classes(1): scan('/home3/totraips...')
+#3 /tmp/.classes(1): scan('/home3/totraips')
+#4 /tmp/.classes(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_fokMVNmdFApkf(1): include('/tmp/.classes')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.classes on line 1
+[01-Nov-2025 00:17:31 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.rindex on line 9
+[01-Nov-2025 06:13:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.class:1
+Stack trace:
+#0 /tmp/.class(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.class(1): inject('/home3/totraips...')
+#2 /tmp/.class(1): scan('/home3/totraips...')
+#3 /tmp/.class(1): scan('/home3/totraips')
+#4 /tmp/.class(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_jttVaDvpuLNXz(1): include('/tmp/.class')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.class on line 1
+[01-Nov-2025 12:02:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp541'@'localhost' (using password: YES) in /tmp/.multi:1
+Stack trace:
+#0 /tmp/.multi(1): mysqli->__construct('localhost', 'totraips_wp541', Object(SensitiveParameterValue), 'totraips_wp541')
+#1 /tmp/.multi(1): inject('/home3/totraips...')
+#2 /tmp/.multi(1): scan('/home3/totraips...')
+#3 /tmp/.multi(1): scan('/home3/totraips')
+#4 /tmp/.multi(1): scanRootPaths()
+#5 /var/cpanel/php/sessions/ea-php82/_WUsCBzDtbCLx(1): include('/tmp/.multi')
+#6 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#7 {main}
+  thrown in /tmp/.multi on line 1
+[04-Nov-2025 17:58:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.rindex:1
+Stack trace:
+#0 /tmp/.rindex(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.rindex(1): inject('/home3/totraips...')
+#2 /tmp/.rindex(1): scan('/home3/totraips...')
+#3 /tmp/.rindex(1): scan('/home3/totraips...')
+#4 /tmp/.rindex(1): scan('/home3/totraips')
+#5 /tmp/.rindex(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_PzGgVkGZMSVV(1): include('/tmp/.rindex')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.rindex on line 1
+[04-Nov-2025 23:38:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.rindex:1
+Stack trace:
+#0 /tmp/.rindex(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.rindex(1): inject('/home3/totraips...')
+#2 /tmp/.rindex(1): scan('/home3/totraips...')
+#3 /tmp/.rindex(1): scan('/home3/totraips...')
+#4 /tmp/.rindex(1): scan('/home3/totraips')
+#5 /tmp/.rindex(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_RfXsbzWPgrcm(1): include('/tmp/.rindex')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.rindex on line 1
+[05-Nov-2025 05:35:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.rindex:1
+Stack trace:
+#0 /tmp/.rindex(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.rindex(1): inject('/home3/totraips...')
+#2 /tmp/.rindex(1): scan('/home3/totraips...')
+#3 /tmp/.rindex(1): scan('/home3/totraips...')
+#4 /tmp/.rindex(1): scan('/home3/totraips')
+#5 /tmp/.rindex(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_ruxobuMpFqyyo(1): include('/tmp/.rindex')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.rindex on line 1
+[05-Nov-2025 11:46:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.sys:1
+Stack trace:
+#0 /tmp/.sys(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.sys(1): inject('/home3/totraips...')
+#2 /tmp/.sys(1): scan('/home3/totraips...')
+#3 /tmp/.sys(1): scan('/home3/totraips...')
+#4 /tmp/.sys(1): scan('/home3/totraips')
+#5 /tmp/.sys(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_dxzMQuFoWUfOF(1): include('/tmp/.sys')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.sys on line 1
+[05-Nov-2025 13:09:45 America/Chicago] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.mb_convert on line 2
+[05-Nov-2025 17:19:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.config:1
+Stack trace:
+#0 /tmp/.config(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.config(1): inject('/home3/totraips...')
+#2 /tmp/.config(1): scan('/home3/totraips...')
+#3 /tmp/.config(1): scan('/home3/totraips...')
+#4 /tmp/.config(1): scan('/home3/totraips')
+#5 /tmp/.config(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_xBlHsfEifrIkp(1): include('/tmp/.config')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.config on line 1
+[05-Nov-2025 23:08:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.post:1
+Stack trace:
+#0 /tmp/.post(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.post(1): inject('/home3/totraips...')
+#2 /tmp/.post(1): scan('/home3/totraips...')
+#3 /tmp/.post(1): scan('/home3/totraips...')
+#4 /tmp/.post(1): scan('/home3/totraips')
+#5 /tmp/.post(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_QejvWqdoHBJa(1): include('/tmp/.post')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.post on line 1
+[06-Nov-2[06-Nov-2025 23:41:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.requests:1
+Stack trace:
+#0 /tmp/.requests(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.requests(1): inject('/home3/totraips...')
+#2 /tmp/.requests(1): scan('/home3/totraips...')
+#3 /tmp/.requests(1): scan('/home3/totraips...')
+#4 /tmp/.requests(1): scan('/home3/totraips')
+#5 /tmp/.requests(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_xgnbvXqlCASMn(1): include('/tmp/.requests')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.requests on line 1
+[07-Nov-2025 05:37:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.cache:1
+Stack trace:
+#0 /tmp/.cache(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.cache(1): inject('/home3/totraips...')
+#2 /tmp/.cache(1): scan('/home3/totraips...')
+#3 /tmp/.cache(1): scan('/home3/totraips...')
+#4 /tmp/.cache(1): scan('/home3/totraips')
+#5 /tmp/.cache(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_qeQVIXGaJYYt(1): include('/tmp/.cache')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.cache on line 1
+[07-Nov-2025 11:26:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'totraips_wp949'@'localhost' (using password: YES) in /tmp/.locked:1
+Stack trace:
+#0 /tmp/.locked(1): mysqli->__construct('localhost', 'totraips_wp949', Object(SensitiveParameterValue), 'totraips_wp949')
+#1 /tmp/.locked(1): inject('/home3/totraips...')
+#2 /tmp/.locked(1): scan('/home3/totraips...')
+#3 /tmp/.locked(1): scan('/home3/totraips...')
+#4 /tmp/.locked(1): scan('/home3/totraips')
+#5 /tmp/.locked(1): scanRootPaths()
+#6 /var/cpanel/php/sessions/ea-php82/_qKLYsRpiCOVwm(1): include('/tmp/.locked')
+#7 /home3/totraips/eerone.com/wp-content/themes/playerx/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/admin/custom-styles/woocommerce.dropdown.cart.custom.styles.php(25): include('/var/cpanel/php...')
+#8 {main}
+  thrown in /tmp/.locked on line 1
+[08-Nov-2025 05:21:00 UTC] PHP Warning:  file_put_contents(/tmp/.dba_insertion): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_EYecuScvivwXe on line 1
+[08-Nov-2025 09:36:46 UTC] PHP Warning:  file_put_contents(/tmp/.parle_tokens): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_YjvyxGmCGtny on line 1
+[08-Nov-2025 09:36:46 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpidea/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/menus.php): Failed to open stream: No such file or directory in /tmp/.parle_tokens on line 1
+[08-Nov-2025 09:37:08 UTC] PHP Warning:  file_put_contents(/tmp/.requests): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_XkMspHTfELTU on line 1
+[08-Nov-2025 09:38:31 UTC] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_HPuROaYHuqBvN on line 1
+[08-Nov-2025 10:41:06 UTC] PHP Warning:  file_put_contents(/tmp/.accepted): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_cLbpCgrsBBhev on line 1
+[08-Nov-2025 10:41:06 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/elementor/vendor_prefixed/twig/twig/twig/src/Node/Expression/Test/setgrands.php): Failed to open stream: No such file or directory in /tmp/.accepted on line 1
+[08-Nov-2025 10:41:09 UTC] PHP Warning:  file_put_contents(/tmp/.multi): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_UbwgpdIizBhH on line 1
+[08-Nov-2025 10:42:25 UTC] PHP Warning:  file_put_contents(/tmp/.accepted): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_RAPOnWmnChSmG on line 1
+[08-Nov-2025 11:26:09 UTC] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_HVxcCBhRlHgd on line 1
+[08-Nov-2025 15:30:25 UTC] PHP Warning:  file_put_contents(/tmp/.dbx_convert): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_MlIkXQEcaxxFn on line 1
+[08-Nov-2025 15:30:25 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting number in /tmp/.dbx_convert on line 11
+[08-Nov-2025 17:24:27 UTC] PHP Warning:  file_put_contents(/tmp/.reset): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_qXknABDFXCaAG on line 1
+[08-Nov-2025 21:43:41 UTC] PHP Warning:  file_put_contents(/tmp/.created): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_kfKIICTHHZBjL on line 1
+[08-Nov-2025 21:43:41 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/src/Integrations/ConstantContact/V3/Api/Http/technicalReports.php): Failed to open stream: No such file or directory in /tmp/.created on line 1
+[08-Nov-2025 21:43:56 UTC] PHP Warning:  file_put_contents(/tmp/.rfind): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_tLLJFSmEaJUZy on line 1
+[08-Nov-2025 21:45:13 UTC] PHP Warning:  file_put_contents(/tmp/.ob_iconv_handle): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_GroDHBiFlnDdM on line 1
+[08-Nov-2025 22:20:47 UTC] PHP Warning:  file_put_contents(/tmp/.ibase_pconnection): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_CfIuzCdXmGBs on line 1
+[08-Nov-2025 22:20:47 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/woocommerce/vendor/wordpress/mcp-adapter/includes/Handlers/Initialize/cookie_setup.php): Failed to open stream: No such file or directory in /tmp/.ibase_pconnection on line 1
+[08-Nov-2025 22:21:19 UTC] PHP Warning:  file_put_contents(/tmp/.locked): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_BWiNukTwXDWp on line 1
+[08-Nov-2025 22:22:35 UTC] PHP Warning:  file_put_contents(/tmp/.db2_convert): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_xZigZXIuHZMF on line 1
+[08-Nov-2025 23:17:26 UTC] PHP Warning:  file_put_contents(/tmp/.parle_tokens): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_RyBoNyWBIbgLI on line 1
+[09-Nov-2025 05:15:40 UTC] PHP Warning:  file_put_contents(/tmp/.rjust): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_nUZIIpMaUfQzx on line 1
+[09-Nov-2025 09:41:35 UTC] PHP Warning:  file_put_contents(/tmp/.include): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_kyiqvuDMrTFJa on line 1
+[09-Nov-2025 09:41:35 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/wpforms-lite/vendor_prefixed/tijsverkoyen/css-to-inline-styles/src/Css/Rule/toolbar.checkin.php): Failed to open stream: No such file or directory in /tmp/.include on line 1
+[09-Nov-2025 09:41:39 UTC] PHP Warning:  file_put_contents(/tmp/.requests): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_uGpJvDaQIWpWQ on line 1
+[09-Nov-2025 09:42:56 UTC] PHP Warning:  file_put_contents(/tmp/.system): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_hVMQjuknHIWE on line 1
+[09-Nov-2025 10:15:16 UTC] PHP Warning:  file_put_contents(/tmp/.ob_iconv_handle): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_rCZJDwdjUUpK on line 1
+[09-Nov-2025 10:15:16 UTC] PHP Warning:  file_put_contents(/home3/totraips/eerone.com/wp-content/plugins/elementor/vendor_prefixed/twig/twig/twig/src/Loader/lib_ajax.php): Failed to open stream: No such file or directory in /tmp/.ob_iconv_handle on line 1
+[09-Nov-2025 10:15:19 UTC] PHP Warning:  file_put_contents(/tmp/.rfind): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_HxBaAeHbSEyB on line 1
+[09-Nov-2025 10:16:39 UTC] PHP Warning:  file_put_contents(/tmp/.uconvert): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_ZdFZNOFYnWPu on line 1
+[09-Nov-2025 11:02:45 UTC] PHP Warning:  file_put_contents(/tmp/.rjust): Failed to open stream: No such file or directory in /opt/alt/php81/var/lib/php/session/_RgASGEpEVEaA on line 1

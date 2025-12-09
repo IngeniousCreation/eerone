@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Title widget style - begin
+   ========================================================================== */
+.widget.edgtf-title-widget {
+  margin: 0 0 11px 0 !important;
+  padding: 13px 20px !important;
+  background-color: rgba(15, 15, 15, 0.8);
+}
+
+.widget.edgtf-title-widget .edgtf-widget-title {
+  margin: 0;
+}
+
+.widget.edgtf-title-widget .edgtf-widget-title:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ff0e1f;
+  border-bottom: 10px solid transparent;
+  position: relative;
+  top: -3px;
+  padding-right: 11px;
+}
+
+/* ==========================================================================
+   Title widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-widget-map.css.map */
